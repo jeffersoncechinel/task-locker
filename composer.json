@@ -1,0 +1,26 @@
+{
+  "name": "jeffersoncechinel/task-locker",
+  "description": "A simple locker class to help prevent php applications to run multiple instances of itself at the same time.",
+  "version" : "1.0.0",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Jefferson Cechinel",
+      "email": "jefferson@homeyou.com",
+      "homepage" : "http://www.jeffersoncechinel.com",
+      "role" : "Creator"
+    }
+  ],
+  "require-dev" : {
+    "phpunit/phpunit" : "^5.5"
+  },
+  "require" : {
+    "php" : ">=5.5"
+  },
+  "minimum-stability" : "stable",
+  "autoload": {
+    "psr-4": {
+      "JC\\TaskLocker\\" : "src/"
+    }
+  }
+}
